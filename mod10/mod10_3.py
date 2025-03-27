@@ -62,10 +62,9 @@ def main():
 
 
     print("testataan talon hissejä:")
-    talo.aja_hissia(0, 5)  # Ajetaan hissi 1 kerrokseen 5
-    talo.aja_hissia(1, 3)  # Ajetaan hissi 2 kerrokseen 3
-    talo.aja_hissia(2, 9)  # Ajetaan hissi 3 kerrokseen 9
-
+    talo.aja_hissia(0, 5)  
+    talo.aja_hissia(1, 3)  
+    talo.aja_hissia(2, 9) 
 
     talo.palohalytys()
 
